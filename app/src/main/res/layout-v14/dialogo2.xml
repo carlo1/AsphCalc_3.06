@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -40,14 +42,14 @@
         android:layout_gravity="center_horizontal" />
 
     <WebView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/webView"
+        android:layout_width="234dp"
+        android:layout_height="4dp"
         android:visibility="invisible" />
 
     <GridLayout
-        android:layout_width="fill_parent"
-        android:layout_height="248dp">
+        android:layout_width="235dp"
+        android:layout_height="273dp">
 
         <Button
             android:id="@+id/btnvota"
@@ -97,46 +99,13 @@
             android:background="@drawable/separatore" />
 
         <TextView
-            android:id="@+id/textView25"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_columnSpan="2"
-            android:layout_gravity="center_horizontal"
-            android:layout_row="3"
-            android:text="Best Thanks"
-            android:textColor="#ff3a3797"
-            android:textIsSelectable="true"
-            android:textSize="20dp" />
-
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_columnSpan="2"
-            android:layout_gravity="center_horizontal"
-            android:layout_row="4"
-            android:text="Andrzej Bieniek"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/imageView18"
-            android:layout_width="fill_parent"
-            android:layout_height="10dp"
-            android:layout_column="0"
-            android:layout_columnSpan="2"
-            android:layout_row="5"
-            android:background="@drawable/separatore" />
-
-        <TextView
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnSpan="2"
             android:layout_gravity="center_horizontal"
-            android:layout_row="6"
+            android:layout_row="4"
             android:text="Partners"
             android:textColor="#ff3a3797"
             android:textIsSelectable="true"
@@ -149,7 +118,7 @@
             android:layout_column="0"
             android:layout_columnSpan="2"
             android:layout_gravity="center_horizontal"
-            android:layout_row="7"
+            android:layout_row="5"
             android:background="@drawable/button_sitech_color" />
 
         <ImageView
@@ -158,8 +127,30 @@
             android:layout_height="10dp"
             android:layout_column="0"
             android:layout_columnSpan="2"
-            android:layout_row="8"
+            android:layout_row="6"
             android:background="@drawable/separatore" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="8"
+            android:text="Developer"
+            android:textColor="#ff3a3797"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="222dp"
+            android:layout_height="79dp"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="9"
+            app:srcCompat="@drawable/cako" />
     </GridLayout>
 
     <TextView
