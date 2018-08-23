@@ -1,0 +1,196 @@
+<resources>
+
+
+    <string name="Calcola">Calculate</string>
+    <string name="Programma">Carlo Poggi</string>
+    <string name="Programmacont">agest.carlo@gmail.com</string>
+    <string name="Tappetino">Tappetino</string>
+    <string name="action_settings">Setting</string>
+    <string name="app_name">AsphCalc Pro</string>
+    <string name="area">Surface  Area</string>
+    <string name="binder">Binder</string>
+    <string name="credid">Version</string>
+    <string name="esempioarea">(Example 1500 Mq.)</string>
+    <string name="descrizione">inseredo the amount of material used the program really calculations the land depth</string>
+    <string name="esempiopesospec">Tons x Mc.</string>
+    <string name="esempiospessore">(Example , 3 inches)</string>
+    <string name="hello_world">Allara Spa</string>
+    <string name="mail">Geom. Imberti Ferdinando</string>
+    <string name="materiale">Material</string>
+    <string name="ordinamateriale">Order the material</string>
+    <string name="peso">Tons</string>
+    <string name="pesospecif">Specific weight</string>
+    <string name="ricalcola">He recalculates</string>
+    <string name="risulatosomma">Result</string>
+    <string name="share_message">Share</string>
+    <string name="spessore">Compressed depth</string>
+    <string name="spessorepartenza">3</string>
+    <string name="spessorepartenza_binder">5</string>
+    <string name="spessorepartenza_tout">10</string>
+    <string name="spessorepartenza_modif">4</string>
+
+
+    <string name="tappetinomodif">Tappeto_Modif</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="title_activity_pagina2">Contact us</string>
+    <string name="title_activity_pagina3">Setting</string>
+    <string name="title_activity_pagina4">Verifying depth</string>
+    <string name="toastarea">to enter Surface Area</string>
+    <string name="toastcondividi">You can share the result</string>
+    <string name="toastservono">they are necessary</string>
+
+    <string name="toutvenant">Tout-Venant</string>
+    <string name="impostazioni">Setting</string>
+    // nuove stringhe
+
+    <string name="centimetro">Inches. </string>
+    <string name="peso2_3">2.3</string>
+    <string name="peso2_2">2.2</string>
+    <string name="peso2_1">2.1</string>
+    <string name="peso2_35">2.35</string>
+    <string name="toastlospessore">The thickness of </string>
+    <string name="toastposato">used is </string>
+    <string name="tonnellate_usate">Tons used </string>
+    <string name="descr_tonnellate_usate">Actually used material</string>
+    <string name="Invia_spessore">Share the thickness</string>
+    <string name="e">is</string>
+    <string name="toasttonelate">Enter Tons</string>
+
+    // nuovo stringhe x activity calcolo da tradurre
+    <string name="title_activity_calcolo">calculate</string>
+    <string name="cal_text_calcolo_superfice">Calculate Area Rectangle</string>
+    <string name="cal_lunghezza">Lengh</string>
+    <string name="cal_larghezza">Width</string>
+    <string name="cal_area">Area Rectangle</string>
+    <string name="cal_calcola">Calculate</string>
+    <string name="cal_unitamisura">Mq.</string>
+    <string name="cal_text_calcolo_cerchio">Calculate Area Circle</string>
+    <string name="cal_raggio">Radius</string>
+    <string name="cal_risultato">Result</string>
+    <string name="cal_risultato_totale">Result Total</string>
+    <string name="cal_text_calcolo_trapezio">Calculate Area Trapezoid</string>
+    <string name="cal_base_maggiore">Side greater</string>
+    <string name="cal_base_minore">Side minor</string>
+    <string name="cal_Altezza">Height</string>
+    <string name="title_activity_calcoloaree">Calculate Aree </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toast_lar">Inserire Width</string>
+    <string name="toast_lun">Inserire Length</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Calculate Material</item>
+        <item >Thickness Control</item>
+        <item >Work in Progress</item>
+        <item >Calculate Area</item>
+        <item >Calculate Transport</item>
+        <item >contact us</item>
+        <item >Info</item>
+        <item >Setting</item>
+        <item >Exit</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/materiale</item>
+        <item>@drawable/verifica</item>
+        <item>@drawable/work</item>
+        <item>@drawable/calcoaree</item>
+        <item>@drawable/trasporto</item>
+        <item>@drawable/email</item>
+        <item>@drawable/versione</item>
+        <item>@drawable/setting</item>
+        <item>@drawable/warning128</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+
+    // da tradurre
+    <string name="titolo1">Modifica Materiale</string>
+    <string name="titolodefault">Titolo2</string>
+    <string name="titolonuovo">Titolo3</string>
+    <string name="menu_item_1">Item 1</string>
+    <string name="menu_item_2">Item 2</string>
+    <string name="item1_summary">Summary Item 1</string>
+    <string name="item2_summary">Summary Item 2</string>
+
+    <string name="titolo_custom">Titolo custom</string>
+
+
+
+    <string name="summary_usa_titolo_custom">Usa un titolo diverso da quello standard</string>
+    <string name="usa_titolo_custom">Usa titolo custom</string>
+    <string name="titolo_activity">Titolo activity</string>
+    <string name="preferences">Preferences</string>
+
+    <string name="primo_avvio">Primo avvio</string>
+
+
+    <string name="titolo_dialogo1">Cambia il nome del materiale</string>
+    <string name="titolo_dialogo2">Cambia il peso del materiale</string>
+    <string name="TappetinoDef2">Tappetino</string>
+    <string name="fdhj">Primo avvio</string>
+    <string name="modificanome">Edit Name</string>
+    <string name="modificapeso">Edit Weight</string>
+    <string name="TappetinoDef">Tappetino</string>
+
+    <string name="ToastInternet">Loading web pages</string>
+
+
+
+    // trasporto
+    <string name="toasttrasporto">Transport Calculate</string>
+    <string name="ToastTrasporto">Insert/Paste material by transport.</string>
+    <string name="DialogoPortata">Managing Transportable weight</string>
+    <string name="modificaportata">Edit Weight</string>
+    <string name="titolo_dialogo">Edit</string>
+    <string name="Dialogounita">Choose Units</string>
+    <string name="modificaunita">Edit Units</string>
+    <string name="toasttonnellate_di">  by </string>
+    <string name="DiaologoPesospecifico">Gestione Weight Material</string>
+    <string name="modificapesospecifico">Modifica Weight</string>
+    <string name="MaterialePosato">Material Worked</string>
+    <string name="titololo_menu1">Edit Material 1</string>
+    <string name="titololo_menu2">Edit Material 2</string>
+    <string name="titololo_menu3">Edit Material 3</string>
+    <string name="titololo_menu4">Edit Material 4</string>
+
+    <string name="toast_alt">Add Height</string>
+    <string name="toast_raggio">Add Radius</string>
+    //07 febbraio 2015
+    <string name="risultato">Result</string>
+    <string name="risultato_precedente">Previous Result</string>
+    //07 febbraio 2015 trasporti
+    <string name="T_scrivi_incolla">Insert/Paste</string>
+    <string name="T_quantita">Material</string>
+    <string name="T_portata_camion">Transportable weight</string>
+    <string name="T_viaggi_totali">Total Travel</string>
+    <string name="T_viaggi_giornalieri">Day Travel</string>
+    //07 febbraio 2015 info
+    <string name="I_1riga">help us translate</string>
+    <string name="I_2riga">il tuo parere è molto</string>
+    <string name="I_3riga">importante per noi</string>
+
+
+    // ottobre 2015 workprogress
+
+    <string name="toastvalore">Insert Value</string>
+    <string name="toastwork_quantita">Material</string>
+    <string name="toastwork_misura">Weight</string>
+    <string name="toastwork_larghezza_stesa">Width</string>
+    <string name="toastwork_misura_larghezza">Width ( A )</string>
+    <string name="toastwork_lunghezza_stesa_prevista">Theoretical Length</string>
+
+
+    // 18 ottobre 2015 setting
+    <string name="n_25">25</string>
+    <string name="n_31">31</string>
+    <string name="n_40">40</string>
+    <string name="giornata">All Transport Day:</string>
+
+</resources>

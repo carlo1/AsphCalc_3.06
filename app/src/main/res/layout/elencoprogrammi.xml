@@ -1,0 +1,268 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="#fffffefe">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="  Programmi"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffc300"
+        android:textSize="25dp" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tableLayout"
+        android:divider="#ffc3bec2">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#ffc0bfbf">
+
+            <ImageView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView2"
+                android:layout_column="0"
+                android:src="@drawable/materiale" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Calcolo Materiale"
+                android:id="@+id/textView2"
+                android:layout_column="1"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView3"
+                android:layout_column="2"
+                android:background="#fff3bc05" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#ffc0bfbf">
+
+            <ImageView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView3"
+                android:layout_column="0"
+                android:src="@drawable/trasporto" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView4"
+                android:layout_column="1"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/ris40"
+                android:layout_column="2"
+                android:background="#ffffc302" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#ffc0bfbf">
+
+            <ImageView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView4"
+                android:layout_column="0"
+                android:src="@drawable/verifica" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/ris25"
+                android:layout_column="1"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView8"
+                android:layout_column="2"
+                android:background="#ffffb500" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="  Servizi e Utitlity"
+        android:id="@+id/textView7"
+        android:background="#ffffc300"
+        android:textSize="25dp"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:id="@+id/tableLayout2">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#ffc0bfbf" >
+
+            <ImageView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView5"
+                android:layout_column="0"
+                android:src="@drawable/versione" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="About"
+                android:id="@+id/textView9"
+                android:layout_column="1"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView10"
+                android:layout_column="2"
+                android:background="#fff3bc05" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#ffc0bfbf" >
+
+            <ImageView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView6"
+                android:layout_column="0"
+                android:src="@drawable/setting" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setting"
+                android:id="@+id/textView11"
+                android:layout_column="1"
+                android:textSize="18dp"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView12"
+                android:layout_column="2"
+                android:background="#fff3bc05" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tableLayout2"
+        android:background="#ffffc300"
+        android:text="  Altre impostazioni"
+        android:textIsSelectable="false"
+        android:textSize="25dp" />
+
+</RelativeLayout>

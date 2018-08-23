@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>Tonnellate</item>
+        <item>Quintali</item>
+        <item>Ton.</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>Ton.</item>
+        <item>Ql.</item>
+        <item>T.</item>
+    </string-array>
+
+</resources>

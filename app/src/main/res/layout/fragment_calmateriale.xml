@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_calc_mater">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:elevation="4dp"
+        android:background="#b7efeef2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@+id/gridLayout3"
+        android:layout_marginTop="12dp"
+        android:id="@+id/scheda2"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/testoscheda"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff5f5f62"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:textIsSelectable="true"
+            android:enabled="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:editable="false" />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/spessore"
+            android:id="@+id/textView4"
+
+            android:textSize="12dp"
+            android:layout_below="@+id/number1"
+            android:layout_alignParentStart="true"
+            android:gravity="bottom"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:textColor="#ff38383b"
+            android:textIsSelectable="false" />
+
+        <EditText
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+
+            android:maxLength="5"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/number2"
+
+            android:text="@string/spessorepartenza"
+            android:textAlignment="inherit"
+
+
+
+            android:editable="false"
+            android:textIsSelectable="false"
+            android:nestedScrollingEnabled="false"
+            android:longClickable="false"
+            android:linksClickable="false"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:enabled="true"
+            android:textSize="15dp"
+            android:autoText="false"
+            android:layout_alignTop="@+id/ris40"
+            android:layout_alignParentStart="false"
+
+            android:layout_alignParentEnd="false"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:textStyle="bold"
+            android:textColor="#ff463f43"
+            android:background="@drawable/border2"
+            android:paddingLeft="15dp"
+            android:elevation="0dp" />
+
+        <TextView
+
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/esempiospessore"
+            android:id="@+id/ris40"
+
+            android:textSize="12dp"
+            android:textIsSelectable="false"
+
+            android:textColor="#ff38383b"
+
+            android:layout_toEndOf="@+id/number2"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/number2"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:lines="2"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/pesospecif"
+            android:id="@+id/textView3"
+            android:gravity="bottom"
+            android:autoText="false"
+            android:textSize="12dp"
+            android:layout_below="@+id/number2"
+            android:layout_alignStart="@+id/testomat"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:textColor="#ff38383b" />
+
+        <EditText
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:inputType="numberDecimal"
+
+            android:ems="10"
+            android:id="@+id/number3"
+            android:autoText="false"
+            android:text="2.2"
+            android:textSize="15dp"
+
+            android:maxLength="5"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="false"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="#ff463f43"
+            android:editable="false"
+            android:textIsSelectable="false"
+            android:nestedScrollingEnabled="false"
+            android:longClickable="false"
+            android:linksClickable="false"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:enabled="true"
+            android:background="@drawable/border2"
+            android:paddingLeft="15dp"
+            android:elevation="0dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ton. x Mc"
+            android:id="@+id/textView8"
+            android:textSize="12dp"
+            android:textIsSelectable="false"
+
+
+            android:layout_centerVertical="true"
+            android:textColor="#ff38383b"
+            android:layout_toRightOf="@+id/number3"
+            android:layout_row="5"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/chiudi"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/ic_expand_less_black_48dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:id="@+id/gridLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/clickme"
+            android:theme="@android:style/Widget.Button"
+
+
+            android:layout_column="5"
+            android:layout_row="0"
+            android:background="@drawable/bottone_rosso_piu"
+            android:layout_below="@+id/scrollView3"
+            android:layout_alignLeft="@+id/scheda2"
+            android:layout_alignStart="@+id/scheda2"
+            android:layout_marginRight="6dp"
+            android:layout_gravity="right"
+            android:textColor="#ee0202" />
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/peso"
+            android:id="@+id/textum"
+            android:enabled="true"
+            android:focusable="true"
+            android:textSize="15dp"
+            android:textIsSelectable="false"
+
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_alignBaseline="@+id/risultato"
+            android:layout_alignBottom="@+id/risultato"
+            android:layout_toStartOf="@+id/risultato"
+            android:layout_gravity="top" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/risulatosomma"
+            android:id="@+id/risultato"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:focusable="true"
+            android:textSize="25dp"
+            android:textIsSelectable="true"
+
+            android:singleLine="true"
+            android:layout_above="@+id/gridLayout"
+            android:layout_toStartOf="@+id/condividi2"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="top"
+            android:layout_marginTop="-9dp" />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/materiale"
+            android:id="@+id/testomat"
+            android:enabled="true"
+            android:focusable="true"
+            android:textSize="15dp"
+            android:textIsSelectable="false"
+            android:layout_alignBottom="@+id/number4"
+            android:layout_alignParentLeft="true"
+            android:layout_column="2"
+            android:layout_row="1" />
+
+    </GridLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#faf8fe"
+        android:elevation="4dp"
+        android:focusable="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/gridLayout3"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/spinner"
+            android:layout_column="0"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_row="0"
+            android:gravity="bottom"
+            android:text="Material"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff858585"
+            android:textSize="17dp" />
+
+        <Spinner
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:id="@+id/spinner"
+
+            android:spinnerMode="dialog"
+
+            android:layout_gravity="left"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/ris25"
+            android:layout_alignEnd="@+id/number4"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/border2"
+            android:elevation="0dp" />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/area"
+            android:id="@+id/textView"
+            android:gravity="bottom"
+            android:textSize="17dp"
+            android:layout_below="@+id/spinner"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:textColor="#ff7f7f7f"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_marginLeft="12dp"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/number1"
+            android:textSize="20dp"
+            android:maxLength="10"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:autoText="false"
+            android:elegantTextHeight="false"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_above="@+id/gridLayout"
+            android:layout_alignStart="@+id/gridLayout3"
+            android:editable="false"
+            android:textIsSelectable="false"
+            android:nestedScrollingEnabled="false"
+            android:longClickable="false"
+            android:linksClickable="false"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:enabled="true"
+            android:text="0"
+            android:background="@drawable/border2"
+            android:paddingLeft="15dp"
+            android:elevation="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/esempioarea"
+            android:id="@+id/ris25"
+            android:layout_toEndOf="@+id/textView4"
+            android:textSize="12dp"
+            android:textIsSelectable="false"
+
+            android:layout_alignTop="@+id/number1"
+            android:textColor="#ab070509"
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:lines="2"
+            android:layout_gravity="top" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/apri"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:src="@drawable/ic_expand_more_black_48dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="4dp"
+            android:visibility="invisible"
+            android:layout_gravity="right" />
+
+    </GridLayout>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/notifica"
+        android:layout_row="0"
+        android:layout_column="4"
+        android:src="@drawable/bottone_arancio_noty"
+        android:visibility="invisible"
+        android:layout_above="@+id/gridLayout"
+        android:layout_alignRight="@+id/gridLayout3"
+        android:layout_alignEnd="@+id/gridLayout3" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/condividi2"
+        android:background="@drawable/bottone_arancio_share"
+        android:visibility="invisible"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:layout_above="@+id/notifica"
+        android:layout_alignLeft="@+id/notifica"
+        android:layout_alignStart="@+id/notifica" android:contentDescription="TODO"/>
+
+
+</RelativeLayout>

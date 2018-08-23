@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory android:title="@string/titololo_menu1">
+    <EditTextPreference android:key="nome_tappetino"
+           android:summary="(Default) Tappetino"
+           android:icon="@drawable/edit128"
+           android:dialogTitle="@string/titolo_dialogo1"
+           android:maxLength="15"
+           android:defaultValue="@string/Tappetino" />
+    <EditTextPreference android:key="nome_ps23"
+        android:title="@string/modificapesospecifico"
+
+        android:summary="Peso Specif.(Default) 2.3"
+        android:dialogTitle="@string/titolo_dialogo"
+        android:defaultValue="2.3"
+        android:maxLength="5"
+        android:inputType="numberDecimal"/>
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:dialogTitle="@string/titolo_dialogo"
+        android:inputType="numberDecimal"
+        android:key="nome_spe1"
+        android:maxLength="4"
+        android:summary="Spessore (Default) 3"
+        android:title="@string/modificapesospecifico" />
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/titololo_menu2">
+    <EditTextPreference android:key="nome_binder"
+        android:summary="(Default) Binder"
+
+        android:maxLength="15"
+        android:icon="@drawable/edit128"
+        android:dialogTitle="@string/titolo_dialogo1"
+        android:defaultValue="@string/binder" />
+    <EditTextPreference
+        android:defaultValue="2.2"
+        android:dialogTitle="@string/titolo_dialogo"
+
+        android:inputType="numberDecimal"
+        android:key="nome_ps22"
+        android:maxLength="5"
+        android:summary="Peso Specif.(Default 2.2)"
+        android:title="@string/modificapesospecifico" />
+    <EditTextPreference
+        android:defaultValue="5"
+        android:dialogTitle="@string/titolo_dialogo"
+        android:inputType="numberDecimal"
+        android:key="nome_spe2"
+        android:maxLength="4"
+        android:summary="Spessore (Default) 5"
+        android:title="@string/modificapesospecifico" />
+
+
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/titololo_menu3">
+    <EditTextPreference android:key="nome_toutvenant"
+        android:summary="(Default) Tout-Venant"
+
+        android:icon="@drawable/edit128"
+
+        android:dialogTitle="@string/titolo_dialogo1"
+        android:maxLength="15"
+        android:defaultValue="@string/toutvenant" />
+    <EditTextPreference android:key="nome_ps21"
+        android:title="@string/modificapesospecifico"
+
+        android:dialogTitle="@string/titolo_dialogo"
+        android:summary="Peso Specif. (Default) 2.1"
+        android:defaultValue="2.1"
+        android:maxLength="5"
+        android:inputType="numberDecimal" />
+
+    <EditTextPreference
+        android:defaultValue="10"
+        android:dialogTitle="@string/titolo_dialogo"
+        android:inputType="numberDecimal"
+        android:key="nome_spe3"
+        android:maxLength="4"
+        android:summary="Spessore (Default) 10"
+        android:title="@string/modificapesospecifico" />
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/titololo_menu4">
+    <EditTextPreference android:key="nome_tappetinomodificato"
+
+        android:summary="(Default) Tappetino Modi."
+        android:dialogTitle="@string/titolo_dialogo1"
+        android:icon="@drawable/edit128"
+        android:defaultValue="@string/tappetinomodif"
+        android:maxLength="15" />
+    <EditTextPreference android:key="nome_ps235"
+        android:title="@string/modificapesospecifico"
+        android:maxLength="5"
+
+        android:inputType="numberDecimal"
+        android:summary="Peso Specif. (Default) 2.35"
+        android:dialogTitle="@string/titolo_dialogo"
+        android:defaultValue="2.35" />
+
+    <EditTextPreference
+        android:defaultValue="4"
+        android:dialogTitle="@string/titolo_dialogo"
+        android:inputType="numberDecimal"
+        android:key="nome_spe4"
+        android:maxLength="4"
+        android:summary="Spessore (Default) 4"
+        android:title="@string/modificapesospecifico" />
+</PreferenceCategory>
+
+</PreferenceScreen>

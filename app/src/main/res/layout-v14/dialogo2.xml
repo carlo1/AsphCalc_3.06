@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:id="@+id/testo"
+    android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/versione"
+        android:textColor="#ff3a3797"
+        android:textIsSelectable="true"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/I_1riga"
+        android:id="@+id/textView14"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/I_2riga"
+        android:id="@+id/textView15"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/I_3riga"
+        android:id="@+id/textView16"
+        android:layout_gravity="center_horizontal" />
+
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+        android:visibility="invisible" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="248dp">
+
+        <Button
+            android:id="@+id/btnvota"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="0"
+
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="40dp"
+            android:layout_row="0"
+            android:background="@drawable/bottone_verde_stella" />
+
+        <Button
+            android:id="@+id/esci"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="1"
+            android:layout_marginLeft="22dp"
+            android:layout_row="0"
+            android:background="@drawable/bottone_rosso_return" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="50dp"
+            android:layout_row="1"
+            android:text="Vota" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="22dp"
+            android:layout_row="1"
+            android:text="Annulla" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="2"
+            android:background="@drawable/separatore" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="3"
+            android:text="Best Thanks"
+            android:textColor="#ff3a3797"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="4"
+            android:text="Andrzej Bieniek"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="5"
+            android:background="@drawable/separatore" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="6"
+            android:text="Partners"
+            android:textColor="#ff3a3797"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button_sitech"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="7"
+            android:background="@drawable/button_sitech_color" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="8"
+            android:background="@drawable/separatore" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="6"
+        android:text="Prova TerraCalc MC"
+        android:textColor="#ff3a3797"
+        android:textIsSelectable="true"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_terracalc"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_terracalc" />
+
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:id="@+id/testo"
+    android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestione Materiali              "
+        android:id="@+id/textView"
+        android:layout_gravity="left"
+        android:textSize="20dp"
+        android:textColor="#ff3a3797"
+        android:textIsSelectable="true" />
+
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btn_materiale"
+
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/bottone_verde_materiale" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modifica Materiale"
+            android:id="@+id/textView14"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="right" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:id="@+id/imageView17"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:background="@drawable/separatore" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gestione Unità Misura"
+            android:id="@+id/textView25"
+            android:layout_gravity="center_horizontal|left"
+            android:textSize="20dp"
+            android:textColor="#ff3a3797"
+            android:textIsSelectable="true"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_columnSpan="2" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btn_unita"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:background="@drawable/bottone_verde_unita" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unità Misura "
+            android:id="@+id/textView26"
+            android:layout_gravity="center_horizontal|right"
+            android:layout_row="4"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:id="@+id/imageView18"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:background="@drawable/separatore"
+            android:layout_columnSpan="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gestione Trasporto"
+            android:id="@+id/textView27"
+            android:layout_gravity="center_horizontal|left"
+            android:textSize="20dp"
+            android:textColor="#ff3a3797"
+            android:textIsSelectable="true"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_columnSpan="2" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btn_trasporto"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:background="@drawable/bottone_verde_trasporto" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Portata Autocarri"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal|right"
+            android:layout_row="7"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:id="@+id/imageView19"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:background="@drawable/separatore"
+            android:layout_columnSpan="2" />
+
+        <Button
+            android:layout_marginLeft="0dp"
+            android:id="@+id/esci"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bottone_rosso_return"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal|left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Annulla"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal|left"
+            android:textSize="20dp"
+            android:textColor="#ff3a3797"
+            android:textIsSelectable="true"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:layout_columnSpan="2" />
+
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Torna al Programma"
+            android:id="@+id/textView23"
+            android:layout_row="10"
+            android:layout_column="1"
+            android:layout_gravity="right" />
+    </GridLayout>
+
+</LinearLayout>

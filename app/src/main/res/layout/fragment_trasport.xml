@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_trasporto_finitr">
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:id="@+id/gridLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/giornata"
+            android:id="@+id/textView9"
+            android:gravity="bottom"
+            android:autoText="true"
+            android:textSize="14dp"
+            android:layout_below="@+id/number2"
+            android:layout_alignStart="@+id/testomat"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_columnSpan="9"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="n°"
+            android:id="@+id/Numero"
+            android:enabled="true"
+            android:focusable="true"
+            android:textSize="15dp"
+            android:textIsSelectable="false"
+
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_alignBaseline="@+id/risultato"
+            android:layout_alignBottom="@+id/risultato"
+            android:layout_toStartOf="@+id/risultato"
+            android:textColor="#ff645e64" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/risultato"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:focusable="true"
+            android:textSize="22dp"
+            android:textIsSelectable="false"
+
+            android:singleLine="true"
+            android:layout_above="@+id/gridLayout"
+            android:layout_toStartOf="@+id/condividi2"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView9"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:src="@drawable/trasporto25"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="   n°"
+            android:id="@+id/textView5"
+            android:enabled="true"
+            android:focusable="true"
+            android:textSize="15dp"
+            android:textIsSelectable="false"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:layout_alignBaseline="@+id/risultato"
+            android:layout_alignBottom="@+id/risultato"
+            android:layout_toStartOf="@+id/risultato"
+            android:textColor="#ff645e64" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/via31"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:focusable="true"
+            android:textSize="22dp"
+            android:textIsSelectable="false"
+            android:singleLine="true"
+            android:layout_above="@+id/gridLayout"
+            android:layout_toStartOf="@+id/condividi2"
+            android:layout_row="1"
+            android:layout_column="4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView10"
+            android:layout_row="1"
+            android:layout_column="5"
+            android:src="@drawable/trasporto31"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/via40"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:focusable="true"
+            android:textSize="22dp"
+            android:textIsSelectable="false"
+            android:singleLine="true"
+            android:layout_above="@+id/gridLayout"
+            android:layout_toStartOf="@+id/condividi2"
+            android:layout_row="1"
+            android:layout_column="7" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView11"
+            android:layout_row="1"
+            android:layout_column="8"
+            android:src="@drawable/trasporto40"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="    n°"
+            android:id="@+id/textView6"
+            android:enabled="true"
+            android:focusable="true"
+            android:textSize="15dp"
+            android:textIsSelectable="false"
+            android:layout_column="6"
+            android:layout_row="1"
+            android:layout_alignBaseline="@+id/risultato"
+            android:layout_alignBottom="@+id/risultato"
+            android:layout_toStartOf="@+id/risultato"
+            android:textColor="#ff645e64" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout"
+        android:layout_above="@+id/gridLayout"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_above="@+id/linearLayout">
+
+        <GridLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:id="@+id/griglia"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/linearLayout">
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/T_portata_camion"
+                android:id="@+id/textView"
+                android:gravity="bottom"
+                android:textSize="12dp"
+                android:layout_below="@+id/spinner"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:textColor="#ff185b79" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/imageView15"
+                android:src="@drawable/separatore"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_columnSpan="7" />
+
+            <TextView
+
+                android:layout_marginRight="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/T_viaggi_totali"
+
+                android:id="@+id/tipo_area"
+                android:gravity="bottom"
+                android:textSize="15dp"
+                android:layout_below="@+id/spinner"
+                android:layout_alignParentStart="true"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:layout_columnSpan="2"
+                android:textColor="#ff185b79"
+                android:textIsSelectable="true" />
+
+            <EditText
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/number1"
+                android:textSize="15dp"
+                android:maxLength="10"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:layout_columnSpan="2"
+                android:text="@string/n_25"
+                android:textColor="#ff6f6969"
+                android:background="@drawable/border2"
+                android:paddingLeft="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:id="@+id/ris25"
+                android:layout_toEndOf="@+id/textView4"
+                android:textSize="25dp"
+                android:textIsSelectable="true"
+
+                android:layout_alignTop="@+id/number1"
+                android:textColor="#ab070509"
+                android:layout_toRightOf="@+id/textView4"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_marginTop="6dp" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_width="117dp"
+                android:layout_height="35dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:layout_marginLeft="12dp"
+                android:id="@+id/materiale"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:hint="@string/T_scrivi_incolla"
+                android:maxLength="15"
+                android:textColor="#ff0e2592"
+                android:textSize="15dp"
+                android:textIsSelectable="false"
+                android:background="@drawable/border2"
+                android:paddingLeft="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/clickme"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="right"
+                android:theme="@android:style/Widget.Button"
+
+
+                android:layout_column="1"
+                android:layout_row="0"
+                android:layout_columnSpan="6"
+                android:background="@drawable/bottone_rosso_new" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView"
+                android:layout_row="3"
+                android:layout_marginLeft="15dp"
+                android:layout_column="2"
+                android:src="@drawable/trasporto25" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/number1"
+                android:layout_column="0"
+                android:layout_marginLeft="12dp"
+
+                android:layout_marginRight="12dp"
+                android:layout_row="5"
+                android:gravity="bottom"
+                android:text="@string/T_portata_camion"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ff185b79"
+                android:textSize="12sp" />
+
+            <EditText
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/number2"
+
+                android:text="@string/n_31"
+                android:textAlignment="inherit"
+                android:textIsSelectable="false"
+
+                android:focusableInTouchMode="true"
+
+                android:textSize="15dp"
+                android:autoText="false"
+                android:layout_alignTop="@+id/ris40"
+                android:layout_alignParentStart="false"
+                android:maxLength="10"
+                android:layout_alignParentEnd="false"
+                android:layout_column="0"
+                android:layout_row="6"
+                android:textColor="#ff6f6969"
+                android:background="@drawable/border2"
+                android:paddingLeft="15dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:id="@+id/ris31"
+                android:textSize="25dp"
+                android:textIsSelectable="true"
+
+
+                android:layout_centerVertical="true"
+                android:textColor="#ab070509"
+                android:layout_toRightOf="@+id/number3"
+                android:layout_row="6"
+                android:layout_column="1"
+                android:layout_marginTop="6dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView7"
+                android:layout_row="6"
+                android:layout_marginLeft="15dp"
+                android:layout_column="2"
+                android:src="@drawable/trasporto31" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/T_portata_camion"
+                android:id="@+id/textView3"
+                android:gravity="bottom"
+                android:autoText="false"
+                android:textSize="12dp"
+                android:layout_below="@+id/number2"
+                android:layout_alignStart="@+id/testomat"
+                android:layout_column="0"
+                android:layout_row="8"
+                android:textColor="#ff185b79" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/imageView13"
+                android:src="@drawable/separatore"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:layout_columnSpan="7" />
+
+            <EditText
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:inputType="numberDecimal"
+
+                android:ems="10"
+                android:id="@+id/number3"
+                android:autoText="false"
+                android:text="@string/n_40"
+                android:textSize="15dp"
+                android:textIsSelectable="false"
+                android:maxLength="10"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentStart="false"
+                android:layout_column="0"
+                android:layout_row="9"
+                android:textColor="#ff6f6969"
+                android:background="@drawable/border2"
+                android:paddingLeft="15dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:id="@+id/ris40"
+
+                android:textSize="25dp"
+                android:textIsSelectable="true"
+
+                android:textColor="#ab070509"
+
+                android:layout_toEndOf="@+id/number2"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/number2"
+                android:layout_row="9"
+                android:layout_column="1"
+                android:layout_marginTop="6dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView8"
+                android:layout_row="9"
+                android:layout_marginLeft="15dp"
+                android:layout_column="2"
+                android:src="@drawable/trasporto40" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:inputType="number"
+                android:ems="10"
+                android:layout_marginLeft="12dp"
+                android:hint="Numero Viaggi"
+
+                android:id="@+id/viaggi"
+                android:layout_column="0"
+                android:layout_row="12"
+                android:maxLength="3"
+                android:textStyle="bold"
+                android:text="3"
+                android:background="@drawable/border2"
+                android:paddingLeft="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/imageView14"
+                android:src="@drawable/separatore"
+                android:layout_row="10"
+                android:layout_column="0"
+                android:layout_columnSpan="7" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/T_viaggi_giornalieri"
+                android:textStyle="bold"
+                android:id="@+id/textView17"
+                android:gravity="bottom"
+                android:autoText="true"
+                android:textSize="14dp"
+                android:layout_below="@+id/number2"
+                android:layout_alignStart="@+id/testomat"
+                android:layout_column="0"
+                android:layout_row="11" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/T_quantita"
+                android:id="@+id/textView19"
+                android:gravity="bottom"
+                android:textSize="17dp"
+                android:layout_below="@+id/spinner"
+                android:layout_alignParentStart="true"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:layout_columnSpan="2"
+                android:textColor="#ff185b79" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/imageView12"
+                android:src="@drawable/separatore"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_columnSpan="7" />
+
+        </GridLayout>
+    </ScrollView>
+
+</RelativeLayout>

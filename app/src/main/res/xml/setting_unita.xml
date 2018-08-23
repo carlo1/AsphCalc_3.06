@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<PreferenceCategory android:title="@string/Dialogounita">
+
+        <EditTextPreference android:key="nome_unitamisura"
+            android:title="@string/modificaunita"
+            android:icon="@drawable/edit128"
+            android:dialogTitle="@string/titolo_dialogo"
+            android:summary="Ton. (Default)"
+            android:defaultValue="Ton."
+            android:maxLength="10"/>
+
+    </PreferenceCategory>
+
+
+            <ListPreference     android:title="Unita Misura"
+              android:summary="Seleziona unità desiderata"
+              android:key="nome_unitamisura"
+              android:defaultValue="Ton."
+              android:entries="@array/listArray"
+              android:entryValues="@array/listValues" />
+
+
+
+    </PreferenceScreen>

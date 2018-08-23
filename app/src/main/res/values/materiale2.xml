@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Materiale2">
+        <item>@string/Tappetino</item>
+        <item>@string/binder</item>
+        <item>@string/toutvenant</item>
+        <item>@string/tappetinomodif</item>
+    </string-array>
+
+</resources>

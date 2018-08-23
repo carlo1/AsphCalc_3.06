@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_tappetino">nome_tappetino</string>
+    <string name="TITOLO_PREF">nome_tappetino</string>
+    <string name="pref_binder">nome_binder</string>
+    <string name="pref_toutvenant">nome_toutvenant</string>
+    <string name="pref_tappetimodificato">nome_tappetinomodificato</string>
+
+    //portata
+    <string name="pref_portata25">nome_25</string>
+    <string name="pref_portata31">nome_31</string>
+    <string name="pref_portata40">nome_40</string>
+
+    //unita misura
+    <string name="pref_unitamisura">nome_unitamisura</string>
+
+    //peso specifico
+    <string name="pref_pesospec21">nome_ps21</string>
+    <string name="pref_pesospec22">nome_ps22</string>
+    <string name="pref_pesospec23">nome_ps23</string>
+    <string name="pref_pesospec235">nome_ps235</string>
+
+
+    //spessore
+    <string name="pref_spessore1">nome_spe1</string>
+    <string name="pref_spessore2">nome_spe2</string>
+    <string name="pref_spessore3">nome_spe3</string>
+    <string name="pref_spessore4">nome_spe4</string>
+
+
+</resources>

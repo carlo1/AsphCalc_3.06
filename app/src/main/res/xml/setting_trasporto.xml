@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="@string/DialogoPortata">
+
+        <EditTextPreference android:key="nome_25"
+            android:title="@string/modificaportata"
+            android:icon="@drawable/trasporto25"
+            android:dialogTitle="@string/titolo_dialogo"
+            android:summary="25 (Default)"
+            android:maxLength="7"
+            android:inputType="numberDecimal"
+            android:defaultValue="25" />
+        <EditTextPreference android:key="nome_31"
+            android:title="@string/modificaportata"
+            android:icon="@drawable/trasporto31"
+            android:dialogTitle="@string/titolo_dialogo"
+            android:summary="31 (Default)"
+            android:maxLength="7"
+            android:inputType="numberDecimal"
+            android:defaultValue="31" />
+        <EditTextPreference android:key="nome_40"
+            android:title="@string/modificaportata"
+            android:icon="@drawable/trasporto40"
+            android:summary="40 (Default)"
+            android:maxLength="7"
+            android:inputType="numberDecimal"
+            android:dialogTitle="@string/titolo_dialogo"
+            android:defaultValue="40" />
+    </PreferenceCategory>
+</PreferenceScreen>

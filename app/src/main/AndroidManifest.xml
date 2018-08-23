@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asphcalc.myapplication" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/asphcal2"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:elevation="2dp"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".model.versione"
+            android:theme="@style/Dialog2" >
+        </activity>
+        <activity
+            android:name=".model.dialogo_impostazioni"
+            android:theme="@style/Dialog2" >
+        </activity>
+        <activity
+            android:name=".model.PreferencesFromXml_unita"
+            android:label="Setting"
+            android:theme="@style/Dialog2" >
+        </activity>
+        <activity
+            android:name=".model.PreferencesFromXml_trasporto"
+            android:label="Setting"
+            android:theme="@style/Dialog2" >
+        </activity>
+        <activity
+            android:name=".model.PreferencesFromXml"
+            android:label="Setting"
+            android:theme="@style/Dialog2" >
+        </activity>
+
+    </application>
+
+</manifest>

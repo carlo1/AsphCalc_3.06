@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="actionBarBackgroundColorDark">#ff1b6cb9</color>
+    <color name="actionBarBackgroundColor">#ff1b89d8</color>
+    <color name="actionBarTextColor">#ffffffff</color>
+
+    <style name="MyTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+        <item name="android:colorPrimary">@color/actionBarBackgroundColor</item>
+        <item name="android:colorPrimaryDark">@color/actionBarBackgroundColorDark</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:label">"@string/app_name"</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:colorAccent">@color/accent_material_light</item>
+
+
+    </style>
+
+    <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="android:background">@color/actionBarBackgroundColor</item>
+    </style>
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionBarTextColor</item>
+    </style>
+
+    <style name="Dialog2" parent="android:Theme.DeviceDefault.Light.Dialog" >
+        <item name="android:colorAccent">@color/accent_material_light_2</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+
+</resources>
