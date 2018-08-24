@@ -6,9 +6,9 @@ android {
     defaultConfig {
         applicationId "com.asphcalc.myapplication"
         minSdkVersion 17
-        targetSdkVersion 23
-        versionCode 26
-        versionName '3.07'
+        targetSdkVersion 26
+        versionCode 27
+        versionName '3.08'
     }
     buildTypes {
         release {
