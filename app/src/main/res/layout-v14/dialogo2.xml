@@ -49,7 +49,7 @@
 
     <GridLayout
         android:layout_width="235dp"
-        android:layout_height="273dp">
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/btnvota"
@@ -137,21 +137,21 @@
             android:layout_column="0"
             android:layout_columnSpan="2"
             android:layout_gravity="center_horizontal"
-            android:layout_row="8"
+            android:layout_row="7"
             android:text="Developer"
             android:textColor="#ff3a3797"
             android:textIsSelectable="true"
             android:textSize="20dp" />
 
-        <ImageView
-            android:id="@+id/imageView20"
-            android:layout_width="222dp"
-            android:layout_height="79dp"
-            android:layout_column="0"
-            android:layout_columnSpan="2"
-            android:layout_row="9"
-            app:srcCompat="@drawable/cako" />
     </GridLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_marginTop="-33dp"
+        android:background="@drawable/cako"
+        android:enabled="true" />
 
     <TextView
         android:id="@+id/textView20"
@@ -160,6 +160,7 @@
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-25dp"
         android:layout_row="6"
         android:text="Prova TerraCalc MC"
         android:textColor="#ff3a3797"
