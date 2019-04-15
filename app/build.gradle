@@ -7,8 +7,8 @@ android {
         applicationId "com.asphcalc.myapplication"
         minSdkVersion 17
         targetSdkVersion 26
-        versionCode 27
-        versionName '3.08'
+        versionCode 28
+        versionName '3.09'
     }
     buildTypes {
         release {
