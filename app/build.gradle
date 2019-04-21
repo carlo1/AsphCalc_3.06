@@ -6,9 +6,9 @@ android {
     defaultConfig {
         applicationId "com.asphcalc.myapplication"
         minSdkVersion 17
-        targetSdkVersion 26
-        versionCode 28
-        versionName '3.09'
+        targetSdkVersion 23
+        versionCode 24
+        versionName '3.05'
     }
     buildTypes {
         release {
@@ -24,6 +24,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support:appcompat-v7:23.2.1'
-    // compile 'com.android.support:design:23.2.1'
+   // compile 'com.android.support:design:23.2.1'
     implementation 'com.android.support:design:23.2.1'
+
 }

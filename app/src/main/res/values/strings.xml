@@ -68,9 +68,7 @@
     <string name="descrizione">Inserendo la quantità di materiale usato il programma calcola lo spessore realmente posato</string>
     <string name="mail">Geom. Imberti  Ferdinando</string>
     <string name="credid">Versione</string>
-
-    //versione
-    <string name="versione" translatable="false">AsphCalcPro versione 3.09</string>
+    <string name="versione" translatable="false">AsphCalcPro versione 3.05</string>
     <string name="Programma">Carlo Poggi</string>
     <string name="Programmacont">agest.carlo@gmail.com</string>
     <string name="title_activity_main_activity2">MainActivity2</string>
