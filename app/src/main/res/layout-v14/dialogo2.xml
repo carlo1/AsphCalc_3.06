@@ -157,13 +157,13 @@
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_row="6"
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="-25dp"
-        android:layout_row="6"
         android:text="Prova TerraCalc MC"
-        android:textColor="#ff3a3797"
+        android:textColor="#375D97"
         android:textIsSelectable="true"
         android:textSize="20dp" />
 
