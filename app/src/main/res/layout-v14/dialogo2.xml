@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -42,14 +40,14 @@
         android:layout_gravity="center_horizontal" />
 
     <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/webView"
-        android:layout_width="234dp"
-        android:layout_height="4dp"
         android:visibility="invisible" />
 
     <GridLayout
-        android:layout_width="235dp"
-        android:layout_height="wrap_content">
+        android:layout_width="fill_parent"
+        android:layout_height="248dp">
 
         <Button
             android:id="@+id/btnvota"
@@ -73,7 +71,7 @@
 
         <TextView
             android:id="@+id/textView22"
-            android:layout_width="wrap_content"
+            android:layout_width="44dp"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_marginLeft="50dp"
@@ -82,11 +80,11 @@
 
         <TextView
             android:id="@+id/textView23"
-            android:layout_width="wrap_content"
+            android:layout_width="61dp"
             android:layout_height="wrap_content"
+            android:layout_row="1"
             android:layout_column="1"
             android:layout_marginLeft="22dp"
-            android:layout_row="1"
             android:text="Annulla" />
 
         <ImageView
@@ -99,13 +97,46 @@
             android:background="@drawable/separatore" />
 
         <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="3"
+            android:text="Best Thanks"
+            android:textColor="#ff3a3797"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnSpan="2"
             android:layout_gravity="center_horizontal"
             android:layout_row="4"
+            android:text="Andrzej Bieniek"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="5"
+            android:background="@drawable/separatore" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="6"
             android:text="Partners"
             android:textColor="#ff3a3797"
             android:textIsSelectable="true"
@@ -118,7 +149,7 @@
             android:layout_column="0"
             android:layout_columnSpan="2"
             android:layout_gravity="center_horizontal"
-            android:layout_row="5"
+            android:layout_row="7"
             android:background="@drawable/button_sitech_color" />
 
         <ImageView
@@ -127,43 +158,20 @@
             android:layout_height="10dp"
             android:layout_column="0"
             android:layout_columnSpan="2"
-            android:layout_row="6"
+            android:layout_row="8"
             android:background="@drawable/separatore" />
-
-        <TextView
-            android:id="@+id/textView33"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_columnSpan="2"
-            android:layout_gravity="center_horizontal"
-            android:layout_row="7"
-            android:text="Developer"
-            android:textColor="#ff3a3797"
-            android:textIsSelectable="true"
-            android:textSize="20dp" />
-
     </GridLayout>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="131dp"
-        android:layout_marginTop="-33dp"
-        android:background="@drawable/cako"
-        android:enabled="true" />
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_row="6"
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="-25dp"
-        android:layout_row="6"
         android:text="Prova TerraCalc MC"
-        android:textColor="#ff3a3797"
+        android:textColor="#273DB8"
         android:textIsSelectable="true"
         android:textSize="20dp" />
 
