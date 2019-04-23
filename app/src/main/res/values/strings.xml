@@ -70,7 +70,7 @@
     <string name="credid">Versione</string>
 
     //versione
-    <string name="versione" translatable="false">AsphCalcPro versione 3.08</string>
+    <string name="versione" translatable="false">AsphCalcPro versione 3.10</string>
     <string name="Programma">Carlo Poggi</string>
     <string name="Programmacont">agest.carlo@gmail.com</string>
     <string name="title_activity_main_activity2">MainActivity2</string>
